@@ -80,5 +80,12 @@ module.exports = {
   plugins: [
     require("tailwindcss-animate"),
     require("tailwindcss-debug-screens")
+  ],
+}
+module.exports = {
+
+  plugins: [
+      require('flowbite/plugin')
   ]
+
 };
